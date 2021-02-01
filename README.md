@@ -2,7 +2,7 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dexidp/dex/CI?style=flat-square)
 [![Go Report Card](https://goreportcard.com/badge/github.com/dexidp/dex?style=flat-square)](https://goreportcard.com/report/github.com/dexidp/dex)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/dexidp/dex)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/mod/github.com/dexidp/dex)
 
 ![logo](Documentation/logos/dex-horizontal-color.png)
 
@@ -69,7 +69,7 @@ Dex implements the following connectors:
 | [GitHub](Documentation/connectors/github.md) | yes | yes | yes | stable | |
 | [SAML 2.0](Documentation/connectors/saml.md) | no | yes | no | stable |
 | [GitLab](Documentation/connectors/gitlab.md) | yes | yes | yes | beta | |
-| [OpenID Connect](Documentation/connectors/oidc.md) | yes | no ([#1065][issue-1065]) | no | beta | Includes Salesforce, Azure, etc. |
+| [OpenID Connect](Documentation/connectors/oidc.md) | yes | yes | yes | beta | Includes Salesforce, Azure, etc. |
 | [Google](Documentation/connectors/google.md) | yes | yes | yes | alpha | |
 | [LinkedIn](Documentation/connectors/linkedin.md) | yes | no | no | beta | |
 | [Microsoft](Documentation/connectors/microsoft.md) | yes | yes | no | beta | |
@@ -77,6 +77,7 @@ Dex implements the following connectors:
 | [Bitbucket Cloud](Documentation/connectors/bitbucketcloud.md) | yes | yes | no | alpha | |
 | [OpenShift](Documentation/connectors/openshift.md) | no | yes | no | stable | |
 | [Atlassian Crowd](Documentation/connectors/atlassiancrowd.md) | yes | yes | yes *) | beta | preferred_username claim must be configured through config |
+| [Gitea](Documentation/connectors/gitea.md) | yes | no | yes | alpha | |
 
 Stable, beta, and alpha are defined as:
 
